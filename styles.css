@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.login-page {
+  display: flex;
+}
+
+.login-image {
+  flex: 60%;
+  background: url('path-to-your-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.login-form-container {
+  flex: 40%;
+  padding: 20px;
+}
