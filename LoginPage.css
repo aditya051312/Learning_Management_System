@@ -1,0 +1,14 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.image-container {
+  flex: 0.6;
+  /* Here you can add the styles for the image */
+}
+
+.form-container {
+  flex: 0.4;
+  /* Here you can add the styles for the form */
+}
