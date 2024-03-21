@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.image-section {
+  flex: 60%;
+  background: url('https://example.com/image.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.login-section {
+  flex: 40%;
+  padding: 50px;
+}
+
+.login-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.login-form {
+  margin-top: 30px;
+}
+
+.login-form input {
+  margin-bottom: 20px;
+}
+
+.forgot-password {
+  margin-top: 20px;
+  text-align: right;
+}
