@@ -1,0 +1,28 @@
+.login-page {
+  display: flex;
+}
+
+.image-section {
+  flex: 0 0 60%;
+  height: 100vh;
+  background: url('your-image-url') no-repeat center center;
+  background-size: cover;
+}
+
+.form-section {
+  flex: 1;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 10px;
+}
+
+form button {
+  margin-top: 20px;
+}
