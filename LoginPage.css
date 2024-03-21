@@ -1,0 +1,15 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.image-section {
+  width: 60%;
+  background: url('your-image.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.form-section {
+  width: 40%;
+  padding: 2rem;
+}
